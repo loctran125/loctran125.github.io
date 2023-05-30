@@ -1,0 +1,27 @@
+{
+  "name": "winyahoo.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch style.scss -o css",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winyahoo/winyahoo.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winyahoo/winyahoo.github.io/issues"
+  },
+  "homepage": "https://github.com/winyahoo/winyahoo.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}

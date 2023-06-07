@@ -1,5 +1,6 @@
-/node_modules
-/.env
+node_modules
+.env
 
-/package-lock.json
-/style.scss
+*lock.json
+style.scss
+*lock.yaml

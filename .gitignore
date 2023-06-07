@@ -1,5 +1,6 @@
 node_modules
 .env
+
 *lock.json
 style.scss
 *lock.yaml
